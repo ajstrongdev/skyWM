@@ -3,7 +3,7 @@
 ## Autostarting
 
 Add shell commands to autostart by adding them to the `AUTOSTART` array on `main.rs`.
-Ajusting the array size accordinly
+Adjusting the array size accordinly
 
 ### E.g.
 ```
@@ -13,3 +13,4 @@ const AUTOSTART: [&str; 3] = [
 	"discord"
 ];
 ```
+The `[&str; 3]` means that 3 commands are going to be called. You will need to adjust this to the amount of commands that are being called.
