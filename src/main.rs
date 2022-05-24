@@ -21,6 +21,7 @@ use simplelog::{LevelFilter, SimpleLogger};
 const TERMINAL: &str = "terminator";
 const LAUNCHER: &str = "dmenu_run";
 
+// The array containing the commands to be ran at startup.
 const AUTOSTART: [&str; 0] = [];
 
 // Add custom keybind constants here:
@@ -68,6 +69,7 @@ fn main() -> penrose::Result<()> {
         
     };
 
+    // Looping thru the commands in the autostart array and executing them.
     for command in AUTOSTART {
         Command::new("sh")
             .arg("-c")
