@@ -97,4 +97,4 @@ This will create a constant that can be used to launch discord, next you will ne
 
 This sets the Window Manager to launch Discord. The capital "M" stands for MOD, which is the SUPER key by default. The lower-case "h" is for the H key on your keyboard.
 
-Then to use this, you will need to recompile skyWM with the additional changes, [See installation documentation]() and move it to /usr/bin/skyWM.
+Then to use this, you will need to recompile skyWM with the additional changes, [See installation documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/INSTALL.md) and move it to /usr/bin/skyWM.

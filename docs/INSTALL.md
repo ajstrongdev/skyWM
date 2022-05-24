@@ -27,4 +27,4 @@ sudo cp target/release/skyWM /usr/bin/skyWM
 
 Then add `exec skyWM` to the bottom of your `~/.xinitrc` file.
 
-To learn the keybinds, or to add custom keybindings, visit our [Keybinds Documentation]().
+To learn the keybinds, or to add custom keybindings, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
