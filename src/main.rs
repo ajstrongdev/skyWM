@@ -1,6 +1,8 @@
 #[macro_use]
 extern crate penrose;
 
+use std::process::Command;
+
 use penrose::{
     core::{
         bindings::KeyEventHandler,
@@ -18,6 +20,8 @@ use simplelog::{LevelFilter, SimpleLogger};
 // Replace these with your preferred terminal and program launcher if required.
 const TERMINAL: &str = "terminator";
 const LAUNCHER: &str = "dmenu_run";
+
+const AUTOSTART: [&str; 0] = [];
 
 // Add custom keybind constants here:
 
@@ -63,6 +67,14 @@ fn main() -> penrose::Result<()> {
         // Add your own keybindings here. Read the customisation documentation for more.
         
     };
+
+    for command in AUTOSTART {
+        Command::new("sh")
+            .arg("-c")
+            .arg(command)
+            .spawn()
+            .expect("Unable to autostart");
+    }
 
     let mut wm = new_xcb_backed_window_manager(config, vec![], logging_error_handler())?;
     wm.grab_keys_and_run(key_bindings, map!{})
