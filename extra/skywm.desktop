@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=skywm
+Comment=Extensible tiling window manager written in Rust
+TryExec=skyWM
+Exec=skyWM
+Type=Application
+Keywords=Window manager

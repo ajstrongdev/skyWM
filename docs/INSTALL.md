@@ -23,8 +23,9 @@ git clone https://github.com/MrBeeBenson/skyWM.git
 cd skyWM/
 cargo build --release
 sudo cp target/release/skyWM /usr/bin/skyWM
+sudo cp extra/skywm.desktop /usr/share/xsessions
 ```
 
-Then add `exec skyWM` to the bottom of your `~/.xinitrc` file.
+Then add `exec skyWM` to the bottom of your `~/.xinitrc` file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DM on login.
 
 To learn the keybinds, or to add custom keybindings, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
