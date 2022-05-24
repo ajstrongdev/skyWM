@@ -6,6 +6,8 @@
 
 Install dependencies:
 
+* Installation assumes that you already have installed the latest rust toolchain. If not please install it from here: https://rust-lang.org.
+
 **Debian/Ubuntu:**
 
 ```sh
