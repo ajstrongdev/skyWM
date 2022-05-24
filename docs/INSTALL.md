@@ -1,6 +1,6 @@
 # skyWM Installation Guide
 
-* Please make a pr if any of these install scripts don't work
+* While this installation guide will work cross-distribution, we have only documented the dependencies for a few distributions at the moment. Feel free to contribute by creating a Pull Request
 
 ## Dependencies:
 
