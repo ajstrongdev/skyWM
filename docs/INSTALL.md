@@ -6,7 +6,7 @@
 
 Install dependencies:
 
-**Debian:**
+**Debian/Ubuntu:**
 
 ```sh
 sudo apt-get install build-essential libglib2.0-dev cmake pkg-config libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev libx11-dev libgtk-3-dev dmenu terminator
