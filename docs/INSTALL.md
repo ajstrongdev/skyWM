@@ -29,14 +29,13 @@ doas emerge -aq base-devel glib2 cmake pkg-config libxcb libx11 gtk3 dmenu termi
 
 * To customise the Window Manager please directly edit main.rs to add the functions you require. There is no specific configuration file and all configurations are edited in main.rs
 
-## Build from source:
+## Build and install from source:
 
 ```sh
 git clone https://github.com/MrBeeBenson/skyWM.git
 cd skyWM/
-cargo build --release
-sudo cp target/release/skyWM /usr/bin/skyWM
-sudo cp extra/skywm.desktop /usr/share/xsessions
+make build
+sudo make install
 ```
 
 Then add `exec skyWM` to the bottom of your `~/.xinitrc` file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DM on login.
