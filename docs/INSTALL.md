@@ -41,6 +41,6 @@ sudo cp extra/skywm.desktop /usr/share/xsessions
 
 Then add `exec skyWM` to the bottom of your `~/.xinitrc` file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DM on login.
 
-To learn the keybinds, or to add custom keybindings, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
+To learn the keybinds, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
 
-To learn how to do more configuration, such as autostarting commands, please read our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md).
+To learn how to do more configuration, such as custom keybinds or automatically starting commands, please read our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md).
