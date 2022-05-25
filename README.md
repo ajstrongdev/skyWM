@@ -18,7 +18,7 @@ Please see [INSTALL.md](https://github.com/MrBeeBenson/skyWM/blob/main/docs/INST
 
 ## Customisation & Configuration
 
-To configure and customise skyWM please see our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md)
+To configure and customise skyWM please see our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md).
 
 ## Screenshots
 
