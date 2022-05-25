@@ -12,7 +12,13 @@ skyWM has a clear and distinct focus adhering to the KISS and Unix philosophy. A
 
 ## Installation
 
-skyWM is not currently packaged for any distribution. Please see [Install.md](https://github.com/MrBeeBenson/skyWM/blob/main/docs/INSTALL.md) to build it from source.
+skyWM is not currently packaged for any Linux distribution. 
+
+Please see [INSTALL.md](https://github.com/MrBeeBenson/skyWM/blob/main/docs/INSTALL.md) to build it from source.
+
+## Customisation & Configuration
+
+To configure and customise skyWM please see our [Configuration Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/configure.md)
 
 ## Screenshots
 
