@@ -5,7 +5,7 @@ build:
 	cargo build --release
 
 install:
-	cp target/release/$(EXECUTABLE) $(PREFIX)/bin/$(PREFIX)
+	cp target/release/$(EXECUTABLE) $(PREFIX)/bin/
 	cp extra/skywm.desktop $(PREFIX)/share/xsessions/
 
 uninstall:
