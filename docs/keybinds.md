@@ -73,7 +73,7 @@
 
 - SUPER + Alt + Right Arrow
 
-**Make windows smaller (Horzontally):** 
+**Make windows smaller (Horizontally):** 
 
 - SUPER + Alt + Left Arrow
 
