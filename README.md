@@ -31,3 +31,8 @@ To configure and customise skyWM please see our [Configuration Documentation](ht
 ![Customised skyWM with Windows](https://raw.githubusercontent.com/MrBeeBenson/skyWM/main/media/skywm3.png)
 
 * User customised skyWM, utilising Polybar and feh
+
+# Credits
+Created by [Chadano](https://chadano.github.io)
+
+- See [Contribution list](https://github.com/CatiumDE/skyWM/graphs/contributors) for a list of contributors
