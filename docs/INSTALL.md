@@ -32,15 +32,21 @@ doas emerge -aq base-devel glib2 cmake pkg-config libxcb libx11 gtk3 dmenu termi
 ## Build and install from source:
 
 ```sh
-git clone https://github.com/MrBeeBenson/skyWM.git
+git clone https://github.com/CatiumDE/skyWM.git
+cd skyWW/
+sudo make build install
+```
+
+Alternatively, you can use/alter the commands below to your use case:
+
+```sh
+git clone https://github.com/CatiumDE/skyWM.git
 cd skyWM/
 cargo build --release
 sudo cp target/release/skyWM /usr/bin/skyWM
 sudo cp extra/skywm.desktop /usr/share/xsessions
 ```
-Then add exec skyWM to the bottom of your ~/.xinitrc file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DM on login.
-
-- The makefile created currently does not work, the steps above utilising cargo will work if followed correctly.
+Then add exec skyWM to the bottom of your ~/.xinitrc file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DE on login.
 
 To learn the keybinds, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
 
