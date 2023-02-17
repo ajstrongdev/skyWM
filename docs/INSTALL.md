@@ -38,7 +38,7 @@ cargo build --release
 sudo cp target/release/skyWM /usr/bin/skyWM
 sudo cp extra/skywm.desktop /usr/share/xsessions
 ```
-Then add exec skyWM to the bottom of your ~/.xinitrc file, or if you are using a login manager such as GDM or LightDM, simply switch the default WM/DE on login.
+Then add exec skyWM to the bottom of your ~/.xinitrc file.
 
 To learn the keybinds, visit our [Keybinds Documentation](https://github.com/MrBeeBenson/skyWM/blob/main/docs/keybinds.md).
 
