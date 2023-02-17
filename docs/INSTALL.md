@@ -29,18 +29,10 @@ doas emerge -aq base-devel glib2 cmake pkg-config libxcb libx11 gtk3 dmenu termi
 
 * To customise the Window Manager please directly edit main.rs to add the functions you require. There is no specific configuration file and all configurations are edited in main.rs
 
-## Build and install from source:
-
-```sh
-git clone https://github.com/CatiumDE/skyWM.git
-cd skyWW/
-sudo make build install
-```
-
 Alternatively, you can use/alter the commands below to your use case:
 
 ```sh
-git clone https://github.com/CatiumDE/skyWM.git
+git clone https://github.com/httpllamaz/skyWM.git
 cd skyWM/
 cargo build --release
 sudo cp target/release/skyWM /usr/bin/skyWM
