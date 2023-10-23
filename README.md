@@ -33,6 +33,6 @@ To configure and customise skyWM please see our [Configuration Documentation](ht
 * User customised skyWM, utilising Polybar and feh
 
 # Credits
-Created by [Chadano](https://chadano.github.io)
+Created by [AJ](https://github.com/ajstrongdev)
 
-- See [Contribution list](https://github.com/CatiumDE/skyWM/graphs/contributors) for a list of contributors
+- See [Contribution list](https://github.com/ajstrongdev/skyWM/graphs/contributors) for a list of contributors
